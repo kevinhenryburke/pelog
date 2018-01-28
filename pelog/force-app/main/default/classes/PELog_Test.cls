@@ -1,5 +1,8 @@
-public with sharing class PELog_Test {
-    public PELog_Test() {
-
+@isTest
+private class PELog_Test {
+ 
+    static testMethod void debug() {
+        PELog.debug('test');
     }
+
 }
