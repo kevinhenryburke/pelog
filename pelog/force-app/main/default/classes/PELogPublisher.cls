@@ -1,4 +1,4 @@
-public with sharing class PELog {
+public with sharing class PELogPublisher {
 
     // TODO - efficiency gain - if global off / user off then no need to check further
     // Have separate packages for publishing (one) and subscribers (many)

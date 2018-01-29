@@ -1,8 +1,8 @@
 @isTest
-private class PELog_Test {
+private class PELogPublisher_Test {
  
     static testMethod void debug() {
-        List<PELog__e> logEvents = PELog.debug('test');
+        List<PELog__e> logEvents = PELogPublisher.debug('test');
 
         System.assertEquals(1, logEvents.size());
 
