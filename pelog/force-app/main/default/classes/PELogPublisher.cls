@@ -3,7 +3,11 @@ public with sharing class PELogPublisher {
     // TODO - efficiency gain - if global off / user off then no need to check further
     // Have separate packages for publishing (one) and subscribers (many)
 
+    // Have a Customer Metadata type for "permanent" settings and custom setting for "temporary". In code bring these together in one Map
+    // The "permanent" settings should have an Event option to publish to other events. The temporary should not
+
     // Add a method to post from process builder
+    // Add a method to post from Lightning Components.
 
 
     List<PELog__e> logEvents = new List<PELog__e>();    
@@ -37,7 +41,7 @@ public with sharing class PELogPublisher {
     
     public static List<PELog__e> debug(LoggingLevel logLevel, Object msg, String category)    {
         System.debug(logLevel, msg);
-        if (isPublishable(logLevel))
+        if (isPublishable(logLevel, category))
         {
             if (isPublishNow(logLevel))
             {
@@ -58,8 +62,17 @@ public with sharing class PELogPublisher {
     timeout
     */
 
-    @TestVisible private static boolean isPublishable (LoggingLevel logLevel) {
-        return true;
+    @TestVisible private static boolean isPublishable (LoggingLevel logLevel, String category) {
+        PELogConfigurator logConfigurator = new PELogConfigurator();
+        logConfigurator.getCategoryLevels();
+        if (PELogConfigurator.hmCategoryLevels.keyset().contains(category)) {
+            // I will publish a message if the statement log level is not more verbose than the configured category
+            return !PELogConfigurator.isMoreVerbose(logLevel, PELogConfigurator.hmCategoryLevels.get(category));
+        }
+        return false;
+
+ //       System.assertEquals(PELogConfigurator.hmLoggingLevelOrdinals.get('FINEST'), PELogConfigurator.hmCategoryLevels.get('Technical'));
+        
     }
 
     @TestVisible private static boolean isPublishNow (LoggingLevel logLevel) {
@@ -78,6 +91,8 @@ public with sharing class PELogPublisher {
 
         for (Database.SaveResult sr : results) {
             if (sr.isSuccess()) {
+                System.debug('published to PELog: ' + logEvents.size());
+                System.debug('results ' + results);
                 return logEvents;
             } else {
                 for(Database.Error err : sr.getErrors()) {

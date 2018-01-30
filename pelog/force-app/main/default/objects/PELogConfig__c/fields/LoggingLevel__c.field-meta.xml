@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LoggingLevel__c</fullName>
+    <description>One of (lowest to highest):
+ERROR
+WARN
+INFO
+DEBUG
+FINE
+FINER
+FINEST
+Events of any level equal to or lower than the specified level will be logged</description>
+    <externalId>false</externalId>
+    <inlineHelpText>One of (lowest to highest):
+ERROR
+WARN
+INFO
+DEBUG
+FINE
+FINER
+FINEST
+Events of any level equal to or lower than the specified level will be logged</inlineHelpText>
+    <label>Logging Level</label>
+    <length>20</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
