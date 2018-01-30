@@ -63,8 +63,7 @@ public with sharing class PELogPublisher {
     */
 
     @TestVisible private static boolean isPublishable (LoggingLevel logLevel, String category) {
-        PELogConfigurator logConfigurator = new PELogConfigurator();
-        logConfigurator.getCategoryLevels();
+        PELogConfigurator.getCategoryLevels();
         if (PELogConfigurator.hmCategoryLevels.keyset().contains(category)) {
             // I will publish a message if the statement log level is not more verbose than the configured category
             return !PELogConfigurator.isMoreVerbose(logLevel, PELogConfigurator.hmCategoryLevels.get(category));

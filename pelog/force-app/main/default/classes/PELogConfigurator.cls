@@ -39,17 +39,12 @@ public with sharing class PELogConfigurator {
         return hmLoggingLevelOrdinals.get(current) > compareToInteger;
     }
 
-
-    public PELogConfigurator() {
-
-    }
-
     /*  
         Calculate the debug logging levels of each category for the current user. 
         If already calculated in this execution context then no need to repeat.
     */
 
-    public void getCategoryLevels () { 
+    public static void getCategoryLevels () { 
         if (!categoryLevelsCalculated) {
             List<PELogConfig__c> listConfig = 
                 [select id, Category__c, LoggingLevel__c, User__c 
