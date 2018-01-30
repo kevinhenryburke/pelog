@@ -1,3 +1,4 @@
+@IsTest
 public with sharing class PELog_TestDataFactory {
     public PELog_TestDataFactory() {
 
