@@ -4,7 +4,7 @@ public with sharing class PELog_TestDataFactory {
 
     }
 
-    public static List<PELogConfig__c> createLogConfig (boolean includeCurrentUser) {
+    public static List<PELogConfig__c> createLogConfig (boolean includeCurrentUser, boolean includeSecondCategory) {
 
         String username = UserInfo.getUserName();
 
@@ -14,6 +14,9 @@ public with sharing class PELog_TestDataFactory {
         listConfig.add(new PELogConfig__c(Name = 'Config3', LoggingLevel__c = 'FINER',Category__c = 'Technical',User__c = 'Bert@Bert.com'));
         if (includeCurrentUser) {
             listConfig.add(new PELogConfig__c(Name = 'Config4', LoggingLevel__c = 'FINEST',Category__c = 'Technical',User__c = username));
+        }
+        if (includeSecondCategory) {
+            listConfig.add(new PELogConfig__c(Name = 'Config5', LoggingLevel__c = 'DEBUG',Category__c = 'Business',User__c = username));
         }
         insert listConfig;
         return listConfig;

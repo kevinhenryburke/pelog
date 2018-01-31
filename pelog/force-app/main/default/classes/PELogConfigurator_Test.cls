@@ -15,7 +15,7 @@ private class PELogConfigurator_Test {
     static testMethod void getCategoryLevels_WithoutCurrentUser() {
 
         // we create a test without the current user specified in any lines and expect a less verbose logging level
-        PELog_TestDataFactory.createLogConfig (false);
+        PELog_TestDataFactory.createLogConfig (false, false);
 
         PELogConfigurator.getCategoryLevels();
 
@@ -27,11 +27,12 @@ private class PELogConfigurator_Test {
     static testMethod void getCategoryLevels_WithCurrentUser() {
 
         // we create a test with the current user specified in any lines and expect a more verbose logging level
-        PELog_TestDataFactory.createLogConfig (true);
+        PELog_TestDataFactory.createLogConfig (true, true);
 
         PELogConfigurator.getCategoryLevels();
 
-        System.assertEquals(1, PELogConfigurator.hmCategoryLevels.size());
+        System.assertEquals(2, PELogConfigurator.hmCategoryLevels.size());
+        System.assertEquals(PELogConfigurator.hmLoggingLevelOrdinals.get('DEBUG'), PELogConfigurator.hmCategoryLevels.get('Business'));
         System.assertEquals(PELogConfigurator.hmLoggingLevelOrdinals.get('FINEST'), PELogConfigurator.hmCategoryLevels.get('Technical'));
         
     }

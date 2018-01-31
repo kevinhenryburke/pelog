@@ -2,7 +2,9 @@
 private class PELogPublisher_Test {
  
     static testMethod void debug() {
-        PELog_TestDataFactory.createLogConfig (false);
+
+        // we create a test without the current user specified in any lines and expect a less verbose logging level
+        PELog_TestDataFactory.createLogConfig (false, false);
 
         List<PELog__e> logEvents = PELogPublisher.debug('test');
 
@@ -13,12 +15,12 @@ private class PELogPublisher_Test {
         
     }
 
-    static testMethod void isPublishable() {
+    static testMethod void isPublishable_OneCategory() {
 
         // we create a test without the current user specified in any lines and expect a less verbose logging level
-        PELog_TestDataFactory.createLogConfig (false);
+        PELog_TestDataFactory.createLogConfig (false, false);
 
-        // everything up to FINER should be publishable, the most verbose levels are not
+        // FINER and less verbose levels should be publishable, the most verbose levels are not
         System.assert(PELogPublisher.isPublishable(LoggingLevel.ERROR, 'Technical'));
         System.assert(PELogPublisher.isPublishable(LoggingLevel.WARN, 'Technical'));
         System.assert(PELogPublisher.isPublishable(LoggingLevel.INFO, 'Technical'));
@@ -26,6 +28,32 @@ private class PELogPublisher_Test {
         System.assert(PELogPublisher.isPublishable(LoggingLevel.FINE, 'Technical'));
         System.assert(!PELogPublisher.isPublishable(LoggingLevel.FINER, 'Technical'));
         System.assert(!PELogPublisher.isPublishable(LoggingLevel.FINEST, 'Technical'));
+        
+    }
+
+    static testMethod void isPublishable_MultipleCategories() {
+
+        // we create a test with the current user specified in any lines and expect a more verbose logging level
+        // we also create a second category which will have a separate logging level associated
+        PELog_TestDataFactory.createLogConfig (true, true);
+
+        // FINEST and less verbose levels should be publishable for the Technical category
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.ERROR, 'Technical'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.WARN, 'Technical'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.INFO, 'Technical'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.DEBUG, 'Technical'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.FINE, 'Technical'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.FINER, 'Technical'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.FINEST, 'Technical'));
+
+        // FINEST and less verbose levels should be publishable for the Technical category
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.ERROR, 'Business'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.WARN, 'Business'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.INFO, 'Business'));
+        System.assert(PELogPublisher.isPublishable(LoggingLevel.DEBUG, 'Business'));
+        System.assert(!PELogPublisher.isPublishable(LoggingLevel.FINE, 'Business'));
+        System.assert(!PELogPublisher.isPublishable(LoggingLevel.FINER, 'Business'));
+        System.assert(!PELogPublisher.isPublishable(LoggingLevel.FINEST, 'Business'));
         
     }
 

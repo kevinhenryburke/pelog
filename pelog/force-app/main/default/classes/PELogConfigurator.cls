@@ -9,7 +9,8 @@ public with sharing class PELogConfigurator {
     static {
         // Use numbers throughout for Logging Level comparisons
 
-        // Terminology: Highest and Lowest Logging Levels are confusing - we'll use verbose as our term
+        // Terminology: Highest and Lowest Logging Levels are confusing. 
+        // We'll use verbose as our term, "FINEST" is the most verbose, "NONE" is the least.
         // Following levels are from least verbose (None) to most verbose (Finest)
 
         hmLoggingLevelOrdinals.put('NONE',0); 

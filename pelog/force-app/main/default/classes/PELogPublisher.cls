@@ -14,6 +14,7 @@ public with sharing class PELogPublisher {
 
     /**
     public debug() method which has the same signature as apex log events
+    As Apex System.debug calls are all technical in nature, the Category is defaulted to "Technical"
     */ 
 
     public static List<PELog__e> debug(Object msg)    {
@@ -68,10 +69,7 @@ public with sharing class PELogPublisher {
             // I will publish a message if the statement log level is not more verbose than the configured category
             return !PELogConfigurator.isMoreVerbose(logLevel, PELogConfigurator.hmCategoryLevels.get(category));
         }
-        return false;
-
- //       System.assertEquals(PELogConfigurator.hmLoggingLevelOrdinals.get('FINEST'), PELogConfigurator.hmCategoryLevels.get('Technical'));
-        
+        return false;        
     }
 
     @TestVisible private static boolean isPublishNow (LoggingLevel logLevel) {
