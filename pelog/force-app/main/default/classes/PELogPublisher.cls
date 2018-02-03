@@ -9,6 +9,11 @@ public with sharing class PELogPublisher {
     // Add a method to post from process builder
     // Add a method to post from Lightning Components.
 
+    // Singleton pattern: http://www.tgerm.com/2010/03/apex-implementing-singleton-design.html
+
+    // Lack of destructors kills this
+    // only useful option now is to capture Apex AND Lightning console.log in same calls? not great though is it?
+    // would need methods to pass back log events which defeats the zero footprint paradigm?
 
     List<PELog__e> logEvents = new List<PELog__e>();    
 
