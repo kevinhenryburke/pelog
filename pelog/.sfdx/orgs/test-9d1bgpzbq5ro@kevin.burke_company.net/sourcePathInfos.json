@@ -1,0 +1,453 @@
+[
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1517161672600,
+            "changeTime": 1517161672600,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1517161672600,
+            "changeTime": 1517161672600,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1517163072967,
+            "changeTime": 1517163072967,
+            "contentHash": "9daac9329c052a8d347aaa7d1b69d9d14a862426",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 64,
+            "modifiedTime": 1517161672600,
+            "changeTime": 1517161672600,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 384,
+            "modifiedTime": 1517331536900,
+            "changeTime": 1517331536900,
+            "contentHash": "526d4c343dd4beb3f5bb544dd29e48bbb7eee549",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog",
+            "isDirectory": true,
+            "size": 288,
+            "modifiedTime": 1517161676587,
+            "changeTime": 1517161676587,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/PELog__e.object-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/PELog__e.object-meta.xml",
+            "isDirectory": false,
+            "size": 340,
+            "modifiedTime": 1517163072965,
+            "changeTime": 1517163072965,
+            "contentHash": "dae9953c33cda4c8dfedb1559c1668cdd60c10d1",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4503,
+            "modifiedTime": 1517237800397,
+            "changeTime": 1517237800397,
+            "contentHash": "228db742e6038f9cd64e6c9fc27be9b2b3dbcff0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4841,
+            "modifiedTime": 1517237800403,
+            "changeTime": 1517237800403,
+            "contentHash": "02fbb451edaaeb1237fa5085b8d4800252cadbf0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 17530,
+            "modifiedTime": 1517237800423,
+            "changeTime": 1517237800423,
+            "contentHash": "f6a9df401cd2fe9805b585ae41101991af12819d",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4503,
+            "modifiedTime": 1517237800427,
+            "changeTime": 1517237800427,
+            "contentHash": "228db742e6038f9cd64e6c9fc27be9b2b3dbcff0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1517163812917,
+            "changeTime": 1517163812917,
+            "contentHash": "d2c9ccf22cae9c72edcaadcda0147c559a126336",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1517237800385,
+            "changeTime": 1517237800385,
+            "contentHash": "35c151ac02ef92a88f7704e1a8cc193324b7aa9f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1517163072982,
+            "changeTime": 1517163072982,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields/msg__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields/msg__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 484,
+            "modifiedTime": 1517163812918,
+            "changeTime": 1517163812918,
+            "contentHash": "4dc191022676889a7c6c25cc3603560996536625",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1517174683431,
+            "changeTime": 1517174683431,
+            "contentHash": "9d18f70775c6f9c8e9e14df991e6ef8d759f629b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields/LoggingLevel__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields/LoggingLevel__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 584,
+            "modifiedTime": 1517166180547,
+            "changeTime": 1517166180547,
+            "contentHash": "76d7f4ffc00eeb07ed0875d39dd1b7e325bd0059",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields/Category__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELog__e/fields/Category__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 624,
+            "modifiedTime": 1517174683431,
+            "changeTime": 1517174683431,
+            "contentHash": "252606ac39c0af560cc4c66a06c7df4e866aa711",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher.cls",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher.cls",
+            "isDirectory": false,
+            "size": 4115,
+            "modifiedTime": 1517391011175,
+            "changeTime": 1517391011175,
+            "contentHash": "e0696ddd9f2d061ccbb8d65ec635abaecb540e54",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher.cls-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1517236841960,
+            "changeTime": 1517236841960,
+            "contentHash": "a3c68064c75c28b8b78543239c4b8efd68c01ca7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher_Test.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher_Test.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3176,
+            "modifiedTime": 1517395843273,
+            "changeTime": 1517395843273,
+            "contentHash": "5de32ae6450c478082cfc1ba06001cc34e5bd359"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher_Test.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogPublisher_Test.cls-meta.xml",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1517236948458,
+            "changeTime": 1517236948458,
+            "contentHash": "d8b55349ea65cd72f9baa0737ca8f60b3a132f32",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/PELogConfig__c.object-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/PELogConfig__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 352,
+            "modifiedTime": 1517237800386,
+            "changeTime": 1517237800386,
+            "contentHash": "b8f9a4611bf1da75c0984fcf02d43697adde8270",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields/Category__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields/Category__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 518,
+            "modifiedTime": 1517237800387,
+            "changeTime": 1517237800387,
+            "contentHash": "51d15dfe9f38a650cced9334ef1d3653cc2c5f00",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields/LoggingLevel__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields/LoggingLevel__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 745,
+            "modifiedTime": 1517237800387,
+            "changeTime": 1517237800387,
+            "contentHash": "5d80268fed85b7c734cb2213b543da3f2d7c12e7",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields/User__c.field-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields/User__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 573,
+            "modifiedTime": 1517237800387,
+            "changeTime": 1517237800387,
+            "contentHash": "a5f2c3d51c0539b0de5344367af04b35174968aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1517237800386,
+            "changeTime": 1517237800386,
+            "contentHash": "14a563af7fb54aedd0a2286f202205db1dc56e8c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/objects/PELogConfig__c/fields",
+            "isDirectory": true,
+            "size": 160,
+            "modifiedTime": 1517237800387,
+            "changeTime": 1517237800387,
+            "contentHash": "07fa1f2b8b09ca666e73e9859b345f50451388d6",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2868,
+            "modifiedTime": 1517393213403,
+            "changeTime": 1517393213403,
+            "contentHash": "74323621aa95643544e1b4d56a0ecccbc06a9fe6"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator.cls-meta.xml",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1517245132630,
+            "changeTime": 1517245132630,
+            "contentHash": "219b5fbbb4faa6cd27fd9a1085a420afdfbe01b8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELog_TestDataFactory.cls",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELog_TestDataFactory.cls",
+            "isDirectory": false,
+            "size": 1173,
+            "modifiedTime": 1517391107772,
+            "changeTime": 1517391107772,
+            "contentHash": "33786a0081bbccbad6470dc9d19ec5fe85f1ccf0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELog_TestDataFactory.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELog_TestDataFactory.cls-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1517262553603,
+            "changeTime": 1517262553603,
+            "contentHash": "840ded57ba35a1e1845ba661886441aba946a298",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator_Test.cls",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator_Test.cls",
+            "isDirectory": false,
+            "size": 1745,
+            "modifiedTime": 1517391178670,
+            "changeTime": 1517391178670,
+            "contentHash": "78fbce161ab9a23378a76637f287383b4495ce91",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator_Test.cls-meta.xml",
+        {
+            "sourcePath": "/Users/kevin.burke/gitexperiments/pelog/pelog/pelog/force-app/main/default/classes/PELogConfigurator_Test.cls-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1517331536901,
+            "changeTime": 1517331536901,
+            "contentHash": "50ecd091ccf51efb3730acb5b285c2e8871412d5",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ]
+]
